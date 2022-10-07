@@ -33,7 +33,6 @@ const App = () => {
     });
 
     setfilteredMonsters(newFilteredMonsters);
-
   }, [monsters, searchField]); // this means run the useEffect whenever the monsters array changes or searchField changes.
 
   const onSearchChange = event => {
